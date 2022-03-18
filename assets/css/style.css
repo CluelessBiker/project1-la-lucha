@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Raleway:wght@800&family=Special+Elite&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+/* Navigation panel */
+
+#menu{
+    width:90%;
+    height:75px;
+    text-align:right;
+    margin:0 auto;
+}
+#menu >li{
+    font-family:'Special Elite', sans-serif;
+    color:#3a3a3a;
+    font-size:140%;
+    display:inline;
+    decoration:none;
+    margin:4px;
+    text-transform:uppercase;
+    line-height:75px;
+}
+#menu a{
+    text-decoration:none;
+    color:inherit;
+}
+#menu a:hover{
+    color:#F6efee;
+}
+.current-page{
+    border-bottom:1px solid #3a3a3a;
+}    
+
+/* #menu{
+    font-size:110%;
+    letter-spacing:4px;
+    line-height:75px;
+}
+#menu li{
+    float:right;
+    list-style-type:none;
+    margin-right:30px;
+}
+#menu a{
+    text-decoration:none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom:1px solid #3a3a3a;
+    
+}
+.active{
+    border-bottom:1px solid #3a3a3a;
+} */

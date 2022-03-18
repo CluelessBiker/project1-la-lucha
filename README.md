@@ -1,5 +1,6 @@
 # LA LUCHA
-La Lucha, meaning "The Fight" in Spanish
+La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that travels the city of Athens, along with the surrounding munincipalies and brings heart-warming food to those eager to seek it out. 
+Spent a very long time frustrated wondering why my changes were not taking effect, and then realised that I had not linked my style.css to my index.html.
 
 ## Features
 
@@ -15,11 +16,12 @@ La Lucha, meaning "The Fight" in Spanish
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
+With my 
 
 ## Credits
 
 ### Content
-As my knowledge of implementation is limited at this phase, the initial set up was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
+As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
 
 ### Media
 The hero image was taken from this site:
