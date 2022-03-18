@@ -5,6 +5,9 @@
     margin:0;
     border:0;
 }
+h1, h2{
+    font-family:'Cabin Sketch', sans-serif;
+}
 /* Navigation panel */
 
 #menu{
@@ -35,27 +38,29 @@
 }    
 
 /* Footer styling */
-#social-links{
-    width:90%;
+footer{
     height:75px;
+    width:90%;
+    background-color:#dfc9c9;
+    margin:0 auto;
+}
+#social-links{
     text-align:center;
     margin:0 auto;
+    line-height:75px;  
 }
 #social-links >li{
     color:#3a3a3a;
     font-size:140%;
-    display:inline;
-    decoration:none;
-    margin:4px;
+    display:inline-block;
     line-height:75px;
 }    
-
 #social-links i{
     font-size: 160%;
-    margin:1%;
-    padding:2%;
-    color: #3a3a3a;
+    padding:20px;
+    color:#3a3a3a;
+    decoration:none;
 }
-#social-links a:hover{
+#social-links i:hover{
     color:#F6efee;
 }

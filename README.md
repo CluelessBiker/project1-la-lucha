@@ -13,6 +13,7 @@ La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that t
 
 ### Unfixed Bugs
 The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. Could not understand what had occured. Have temporarily left the issue & will address it again later.
+Fixed the issue by changing the display from "inline" to "inline-block".
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
