@@ -18,6 +18,8 @@ Fixed the issue by changing the display from "inline" to "inline-block".
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
 Spent a very long time frustrated wondering why my changes were not taking effect, and then realised that I had not linked my style.css to my index.html.
+Next I worked on placing the hero image. I found that whilst I could easily set the dimensions of the container, I could not adjust the size of the photo within that container, & as a result, it was overly zoomed in. I removed the image from the style sheet, & added it to the html file instead. This assisted in fixing the size of the image, however it created a new problem in the styling, as the 'margin:0 auto;' was no longer centering the image. This was fixed by creating a 'margin-left:5%;'.
+For now, there are scaling issues which will need to be addressed with the media queries, or possibly better style rules.
 
 ## Credits
 
