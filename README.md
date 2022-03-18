@@ -1,6 +1,5 @@
 # LA LUCHA
 La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that travels the city of Athens, along with the surrounding munincipalies and brings heart-warming food to those eager to seek it out. 
-Spent a very long time frustrated wondering why my changes were not taking effect, and then realised that I had not linked my style.css to my index.html.
 
 ## Features
 
@@ -13,10 +12,11 @@ Spent a very long time frustrated wondering why my changes were not taking effec
 ### Validator Testing
 
 ### Unfixed Bugs
+The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. Could not understand what had occured. Have temporarily left the issue & will address it again later.
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
-With my 
+Spent a very long time frustrated wondering why my changes were not taking effect, and then realised that I had not linked my style.css to my index.html.
 
 ## Credits
 
