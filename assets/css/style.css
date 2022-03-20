@@ -166,6 +166,29 @@ hr{
     text-align:left;
 }
 
+/* Locations */
+#locations{
+    width:90%;
+    position:relative;
+    height:400px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.location-sections{
+    width:33%;
+    height:300px;
+    border:1px solid #1b0704;
+    box-sizing:border-box;
+    color:#0c0504;
+    padding:30px;
+    margin:5px;
+    font-size:1.6em;
+    line-height: 1.5em;
+    text-align:center;
+}
+
 /* Footer styling */
 footer{
     width:90%;
