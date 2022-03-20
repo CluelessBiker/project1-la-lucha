@@ -18,13 +18,13 @@ h3, p{
 }
 /* Navigation panel */
 
-#menu{
+#navigation{
     width:90%;
     height:75px;
     text-align:right;
     margin:0 auto;
 }
-#menu >li{
+#navigation >li{
     font-family:'Special Elite', sans-serif;
     color:#3a3a3a;
     font-size:140%;
@@ -34,11 +34,11 @@ h3, p{
     text-transform:uppercase;
     line-height:75px;
 }
-#menu a{
+#navigation a{
     text-decoration:none;
     color:inherit;
 }
-#menu a:hover{
+#navigation a:hover{
     color:#F6efee;
 }
 .current-page{
@@ -86,7 +86,7 @@ h3, p{
 /* Menu banner */
 #banner-container{
     width:90%;
-    height:auto;
+    height:250px;
     margin:0 auto;
     overflow:hidden;
     background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
@@ -116,6 +116,43 @@ h3, p{
     padding:10px;
 }
 
+/* Menu categories */
+#menu-items{
+    width:90%;
+    position:relative;
+    height:400px;
+    margin:0 auto;
+    overflow:hidden;
+    background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
+    background-size: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.menu-sections{
+    width:33%;
+    height:380px;
+    border:1px solid #F6EFEE;
+    box-sizing:border-box;
+    color:#F6EFEE;
+    padding:30px;
+    margin:10px;
+    font-size:1.6em;
+    line-height: 1.5em;
+}
+.menu-sections h3{
+    text-transform:uppercase;
+    font-size:1.8em;
+}
+#menu-sides{
+    text-align:right;
+}
+#menu-mains{
+    text-align:center;
+}
+#menu-drinks{
+    text-align:left;
+}
 
 /* Footer styling */
 footer{
