@@ -5,11 +5,13 @@
     margin:0;
     border:0;
 }
-h1,{
+h1{
     font-family:'Cabin Sketch', sans-serif;
+    text-transform:uppercase;
 }
 h2{
     font-family:Raleway, sans-serif;
+    text-transform:uppercase;
 }
 /* Navigation panel */
 
@@ -51,21 +53,21 @@ h2{
     width:100%;
     height:600px;
     background:url('../images/food-truck.jpeg') no-repeat center center;
+    background-size: 100%;
 }
 #lalucha-banner{
     width:50%;
     height:100px;
     font-size:100%;
     text-align:center;
-    font-family:'Cabin Sketch', sans-serif;
     color:#F6EFEE;
     background:url('../images/banner.png') no-repeat center center;
+    background-size: 100% 100%;
     position:absolute;
     top:100px;
     right:25%;
 }
 #foodtruck-overlay{
-    font-family:Raleway, sans-serif;
     font-size:300%;
     text-align:center;
     line-height:50px;
@@ -77,6 +79,38 @@ h2{
     padding:10px;
 
 }
+
+/* Menu banner */
+#banner-container{
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+    height:200px;
+    background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
+    background-size: 100%;
+}
+#banner-container div{
+    display:inline-block;
+    color:#F6EFEE;
+}
+#left-foodtruck{
+    width:18%;
+    text-align:right;
+    font-size:3.1vw;
+    line-height:6vh;
+    word-wrap: break-word;
+}
+#center-menu{
+    width:54%;
+    text-align:center;
+    font-size:12vw;
+}
+#right-times{
+    background:url('../images/day-time-flag.png') no-repeat center center;
+    background-size: 100%;
+    width:18%;
+}
+
 
 /* Footer styling */
 footer{

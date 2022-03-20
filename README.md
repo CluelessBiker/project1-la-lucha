@@ -14,6 +14,7 @@ La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that t
 ### Unfixed Bugs
 The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. Could not understand what had occured. Have temporarily left the issue & will address it again later.
 Fixed the issue by changing the display from "inline" to "inline-block".
+Resolved the issue of the background image size within their containers using the {background-size:100% 100%;} rule found in Stackoverflow.
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
@@ -26,6 +27,8 @@ Leaving the issues with the home page for now, will need to seek guidance to res
 Moving on to the 'Menu' page.
 
 ## Credits
+Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes.
+Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers.
 
 ### Content
 As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
