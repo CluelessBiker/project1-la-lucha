@@ -13,6 +13,9 @@ h2{
     font-family:Raleway, sans-serif;
     text-transform:uppercase;
 }
+h3, p{
+    font-family:'Special Elite', sans-serif;
+}
 /* Navigation panel */
 
 #menu{
