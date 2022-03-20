@@ -79,7 +79,7 @@ h3, p{
     position:relative;
     margin:0 auto;
     padding:5px;
-    top:6%;
+    top:7%;
     border-radius:5%;
 }
 
@@ -175,18 +175,28 @@ hr{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    
 }
 .location-sections{
     width:33%;
     height:300px;
-    border:1px solid #1b0704;
+    border:1px solid #000000;
     box-sizing:border-box;
-    color:#0c0504;
+    color:#F6efee;
     padding:30px;
     margin:5px;
     font-size:1.6em;
     line-height: 1.5em;
     text-align:center;
+    background: url('../images/chalkboard-backgrounds.jpg');
+}
+
+#locations a{
+    text-decoration:none;
+    color:inherit;
+}
+#locations a:hover{
+    color:#14dada;
 }
 
 /* Footer styling */
@@ -205,7 +215,7 @@ footer{
 }    
 #social-links i{
     font-size: 160%;
-    padding:20px 20px 0 20px;
+    padding:30px;
     color:#3a3a3a;
     decoration:none;
 }

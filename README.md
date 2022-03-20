@@ -26,7 +26,7 @@ I'm still struggling with sizing the images within their containers, along with 
 Leaving the issues with the home page for now, will need to seek guidance to resolve the matter.
 Moving on to the 'Menu' page.
 Was experiencing the same issues with the menu heading that I was on the main page. Enlisted the help of my cousin to aid me in seeing the error of my ways. Once that was finally in place & I understood how to get there, I moved on to completing the menu layout with the newly aqcuired knowledge. 
-Moved on to the "locations" page
+Moved on to the "locations" page. Reused the banner heading from the menu page with a few minor adjustments to accomodate the larger word. And added the locations of where the food truck will be each day of the week. Each day is linked to a page on google maps to fascilitate people in finding the truck.
 
 ## Credits
 Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes.
@@ -49,4 +49,5 @@ Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/
 
 [Photo by cottonbro from Pexels - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
 
+[Photo by Andrea Piacquadio from Pexels - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
 ## Other General Project Advice
