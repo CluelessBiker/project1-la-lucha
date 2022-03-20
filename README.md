@@ -15,6 +15,7 @@ La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that t
 The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. Could not understand what had occured. Have temporarily left the issue & will address it again later.
 Fixed the issue by changing the display from "inline" to "inline-block".
 Resolved the issue of the background image size within their containers using the {background-size:100% 100%;} rule found in Stackoverflow.
+With the help of my cousin, I was shown how to use flexbox styles wish instantly resolved the issue I was experiencing with placement & my items inexplicably being off center. I was also informed that I had been incorrectly using the postion:absolute; rule, that this was in turn responsible for much of my frustrations.
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
@@ -29,25 +30,30 @@ Was experiencing the same issues with the menu heading that I was on the main pa
 Moved on to the "locations" page. Reused the banner heading from the menu page with a few minor adjustments to accomodate the larger word. And added the locations of where the food truck will be each day of the week. Each day is linked to a page on google maps to fascilitate people in finding the truck.
 
 ## Credits
-Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes.
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers.
-My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically.
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.
 
 ### Content
-As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
+- As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
+- Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes, where I was reminded of how to size fonts with viewport widths & heights.
+- Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers, where I found the styling rule background-size: 100% 100%;.
+- My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically using the following three rules, 
+1. display:flex; 
+2. align-items:center; 
+3. justify-content:space-between;
+- Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.
+1. transform: scaleY(2);
+2. transform-origin: 0 0;
 
 ### Media
-Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
+- Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
 
 
-[Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
+- [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
 
-[Photo by Brett Sayles from Pexels - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
+- [Photo by Brett Sayles from Pexels - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
 
-[Photo by Jess Loiterton from Pexels - shrimp tacos](https://www.pexels.com/photo/white-and-blue-bus-near-green-palm-tree-under-blue-sky-4609255/)
+- [Photo by Jess Loiterton from Pexels - shrimp tacos](https://www.pexels.com/photo/white-and-blue-bus-near-green-palm-tree-under-blue-sky-4609255/)
 
-[Photo by cottonbro from Pexels - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
+- [Photo by cottonbro from Pexels - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
 
-[Photo by Andrea Piacquadio from Pexels - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
+- [Photo by Andrea Piacquadio from Pexels - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
 ## Other General Project Advice
