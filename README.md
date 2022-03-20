@@ -29,6 +29,7 @@ Moving on to the 'Menu' page.
 ## Credits
 Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes.
 Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers.
+My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically.
 
 ### Content
 As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.

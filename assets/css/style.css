@@ -48,14 +48,11 @@ h2{
     margin:0 auto;
     overflow:hidden;
     position:relative;
-}
-#hero-image{
-    width:100%;
-    height:600px;
+    margin:0 auto;
     background:url('../images/food-truck.jpeg') no-repeat center center;
     background-size: 100%;
-    margin:0 auto;
 }
+
 #lalucha-banner{
     width:50%;
     height:110px;
@@ -64,34 +61,34 @@ h2{
     color:#F6EFEE;
     background:url('../images/banner.png') no-repeat center center;
     background-size: 100% 100%;
-    position:absolute;
-    top:100px;
-    right:25%;
+    position:relative;
+    margin:0 auto;
 }
 #foodtruck-overlay{
     font-size:3vw;
     text-align:center;
     line-height:110%;
+    width:40%;
     background-color:#F6EFEE;
     color:#3a3a3a;
-    position:absolute;
+    position:relative;
     margin:0 auto;
-    top:200px;
-    padding:10px;
 
 }
 
 /* Menu banner */
 #banner-container{
     width:90%;
+    height:auto;
     margin:0 auto;
     overflow:hidden;
-    height:200px;
     background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
     background-size: 100%;
+    display:flex;
+    align-items:center;
+   /* justify-content:space-between; */
 }
 #banner-container div{
-    display:inline-block;
     color:#F6EFEE;
 }
 #left-foodtruck{
@@ -99,7 +96,6 @@ h2{
     text-align:right;
     font-size:3.1vw;
     line-height:110%;
-    word-wrap: break-word;
 }
 #center-menu{
     width:54%;
@@ -107,8 +103,6 @@ h2{
     font-size:12vw;
 }
 #right-times{
-    background:url('../images/day-time-flag.png') no-repeat center center;
-    background-size: 100% 100%;
     width:18%;
 }
 
