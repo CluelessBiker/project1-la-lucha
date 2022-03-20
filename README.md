@@ -25,11 +25,14 @@ Decided the code was too complicated. I had guessed my way through acheiving the
 I'm still struggling with sizing the images within their containers, along with positioning the overlay text. I can control the positioning with percentages, but I would like to get them vertically aligned without it.
 Leaving the issues with the home page for now, will need to seek guidance to resolve the matter.
 Moving on to the 'Menu' page.
+Was experiencing the same issues with the menu heading that I was on the main page. Enlisted the help of my cousin to aid me in seeing the error of my ways. Once that was finally in place & I understood how to get there, I moved on to completing the menu layout with the newly aqcuired knowledge. 
+Moved on to the "locations" page
 
 ## Credits
 Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes.
 Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers.
 My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically.
+Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.
 
 ### Content
 As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspitaion for the design of the navigation bar, along with the display of the social links in the footer element.
@@ -38,9 +41,7 @@ As my knowledge of implementation is limited at this point in my learning, the i
 Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
 
 
-
 [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
-
 
 [Photo by Brett Sayles from Pexels - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
 
