@@ -51,6 +51,7 @@ h2{
     margin:0 auto;
     background:url('../images/food-truck.jpeg') no-repeat center center;
     background-size: 100%;
+    top:10%;
 }
 
 #lalucha-banner{
@@ -63,17 +64,20 @@ h2{
     background-size: 100% 100%;
     position:relative;
     margin:0 auto;
+    top:10%;
 }
 #foodtruck-overlay{
     font-size:3vw;
     text-align:center;
     line-height:110%;
-    width:40%;
+    width:20%;
     background-color:#F6EFEE;
     color:#3a3a3a;
     position:relative;
     margin:0 auto;
-
+    padding:5px;
+    top:6%;
+    border-radius:5%;
 }
 
 /* Menu banner */
@@ -86,24 +90,27 @@ h2{
     background-size: 100%;
     display:flex;
     align-items:center;
-   /* justify-content:space-between; */
+    justify-content:space-between;
 }
 #banner-container div{
     color:#F6EFEE;
 }
 #left-foodtruck{
-    width:18%;
     text-align:right;
-    font-size:3.1vw;
-    line-height:110%;
+    font-size:5vw;
+    line-height:130%;
 }
 #center-menu{
-    width:54%;
     text-align:center;
     font-size:12vw;
+    padding:0;
 }
-#right-times{
-    width:18%;
+#right-times img{
+    width:80%;
+}
+.solid-banner{
+    margin:0 auto;
+    padding:10px;
 }
 
 
