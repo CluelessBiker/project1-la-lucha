@@ -16,6 +16,8 @@ The Social links appeared to be connected with a hyphen that would open one of t
 Fixed the issue by changing the display from "inline" to "inline-block".
 Resolved the issue of the background image size within their containers using the {background-size:100% 100%;} rule found in Stackoverflow.
 With the help of my cousin, I was shown how to use flexbox styles wish instantly resolved the issue I was experiencing with placement & my items inexplicably being off center. I was also informed that I had been incorrectly using the postion:absolute; rule, that this was in turn responsible for much of my frustrations.
+Ran the html files through W3C validator. Upon initial run through, some sections failed. Once I removed the paragraph elements from the the unordered list elements, the issue was resolved.
+The same happened with running the style rules through the CSS validator. Two rules hadn't been written correctly, but once amended, it passed without any errors.
 
 ## Deployment
 The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
@@ -28,6 +30,7 @@ Leaving the issues with the home page for now, will need to seek guidance to res
 Moving on to the 'Menu' page.
 Was experiencing the same issues with the menu heading that I was on the main page. Enlisted the help of my cousin to aid me in seeing the error of my ways. Once that was finally in place & I understood how to get there, I moved on to completing the menu layout with the newly aqcuired knowledge. 
 Moved on to the "locations" page. Reused the banner heading from the menu page with a few minor adjustments to accomodate the larger word. And added the locations of where the food truck will be each day of the week. Each day is linked to a page on google maps to fascilitate people in finding the truck.
+Having completed most of the project (media queries still missing), I've realised that the site lacks content. I focused entirely on the design, and did not build up information to go with it. Will need to reconsider the layout, and possibly add in an "about" section. 
 
 ## Credits
 
