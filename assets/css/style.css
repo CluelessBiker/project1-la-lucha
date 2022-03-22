@@ -10,7 +10,7 @@ h1{
     text-transform:uppercase;
 }
 h2{
-    font-family:Raleway, sans-serif;
+    font-family:'Raleway', sans-serif;
     text-transform:uppercase;
 }
 h3, p{
@@ -20,10 +20,20 @@ h3, p{
 /* Navigation panel */
 
 #navigation{
-    width:90%;
+    width: 90%;
+    height: 75px;
+    text-align: right;
+    margin-left: 5%;
+    position:fixed;
+    background-color: white;
+    z-index: 2;
+    /*width:90%;
     height:75px;
     text-align:right;
     margin:0 auto;
+    position:fixed;
+    background-color:white;
+    z-index:2;*/
 }
 #navigation >li{
     font-family:'Special Elite', sans-serif;
@@ -47,16 +57,23 @@ h3, p{
 }    
 /* Hero Image & logo layover */
 #hero-container{
+    width: 90%;
+    height: 525px;
+    margin: 0 auto;
+    background: url(../images/food-truck.jpeg) no-repeat center center;
+    background-size: 100%;
+    padding-top:10%
+}
+/*{
     width:90%;
     height:600px;
     margin:0 auto;
     overflow:hidden;
     position:relative;
-    margin:0 auto;
     background:url('../images/food-truck.jpeg') no-repeat center center;
     background-size: 100%;
     top:10%;
-}
+}*/
 
 #lalucha-banner{
     width:50%;
@@ -65,10 +82,8 @@ h3, p{
     text-align:center;
     color:#F6EFEE;
     background:url('../images/banner.png') no-repeat center center;
-    background-size: 100% 100%;
-    position:relative;
+    background-size: 100%;
     margin:0 auto;
-    top:10%;
 }
 #foodtruck-overlay{
     font-size:3vw;
@@ -77,12 +92,37 @@ h3, p{
     width:20%;
     background-color:#F6EFEE;
     color:#3a3a3a;
-    position:relative;
     margin:0 auto;
     padding:5px;
-    top:7%;
     border-radius:5%;
 }
+
+/* About us */
+#about{
+    width:70%;
+    height: 450px;px;
+    margin:0 auto;
+    /*overflow:hidden;
+    padding:20px;
+    box-sizing:border-box;
+    border:1px solid #000000;*/
+    display:flex;
+    align-items:center;
+}
+#lalucha-team img{
+    width:auto;
+    height:425px
+}
+#about-us{
+    height:425px;
+    width:auto;
+    padding:30px;
+    text-align:center;
+    font-size:125%;
+    line-height:28px;
+    overflow:auto;
+}
+
 
 /* Menu banner */
 #banner-container{

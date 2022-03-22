@@ -49,14 +49,10 @@ Having completed most of the project (media queries still missing), I've realise
 ### Media
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
 
-
 - [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
-
 - [Photo by Brett Sayles from Pexels - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
-
 - [Photo by Jess Loiterton from Pexels - shrimp tacos](https://www.pexels.com/photo/white-and-blue-bus-near-green-palm-tree-under-blue-sky-4609255/)
-
 - [Photo by cottonbro from Pexels - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
-
 - [Photo by Andrea Piacquadio from Pexels - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
 ## Other General Project Advice
+- [Photo by Rodnae Productions from Pexels - foodtruck staff](https://www.pexels.com/photo/man-and-woman-standing-in-front-of-the-food-truck-5779665/)
