@@ -90,7 +90,7 @@ h3, p{
     align-items:flex-start;
     padding:20px;
 }
-#lalucha-team img{
+.page-description img{
     width:auto;
     height:450px
 }
@@ -106,7 +106,7 @@ h3, p{
     color:#3a3a3a;
     overflow:auto;
 }
-#about-us hr{
+.page-description hr{
     border-top: 1px solid #3A3A3A;
     width:100%;
     margin:5px;
@@ -115,7 +115,7 @@ h3, p{
 /* Menu banner */
 #banner-container{
     width:90%;
-    height:25vh;
+    height:30%;
     margin:0 auto;
     overflow:hidden;
     background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
@@ -161,10 +161,6 @@ h3, p{
     align-items:flex-start;
     padding:20px;
 }
-#vegetables img{
-    width:auto;
-    height:450px
-}
 #food-philosophy{
     height:390px;
     width:500px;
@@ -176,11 +172,6 @@ h3, p{
     line-height:22px;
     color:#3a3a3a;
     overflow:auto;
-}
-#food-philosophy hr{
-    border-top: 1px solid #3A3A3A;
-    width:100%;
-    margin:5px;
 }
 
 /* Menu categories */
@@ -226,11 +217,34 @@ hr{
     text-align:left;
 }
 
+/* Location updates (location banner adjustment in original banner grouping) */
+#location-announcements{
+    width:60%;
+    height: 450px;
+    margin:0 auto;
+    display:flex;
+    align-items:flex-start;
+    padding:20px;
+}
+#location-text{
+    height:390px;
+    width:300px;
+    padding:30px;
+    margin-left:20px;
+    border: 1px solid #3A3A3A;
+    text-align:center;
+    font-size:105%;
+    line-height:22px;
+    color:#3a3a3a;
+    overflow:auto;
+}
+
 /* Locations */
 #locations{
     width:90%;
     position:relative;
-    height:400px;
+    height:300px;
+    padding:20px;
     margin:0 auto;
     display:flex;
     align-items:center;

@@ -56,4 +56,5 @@ Having completed most of the project (media queries still missing), I've realise
 - [Photo by Andrea Piacquadio from Pexels - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
 ## Other General Project Advice
 - [Photo by Rodnae Productions from Pexels - foodtruck staff](https://www.pexels.com/photo/man-and-woman-standing-in-front-of-the-food-truck-5779665/)
+- [Photo by Roberto Nickson from Pexels - palm trees](https://www.pexels.com/photo/green-and-brown-coconut-trees-under-clear-blue-sky-2486168/)
 - [Photo by Bruce Mars from Stocksnap - vegetable stand](https://stocksnap.io/photo/vegetable-stall-KZ19NV9MVY)
