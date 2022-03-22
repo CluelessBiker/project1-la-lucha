@@ -23,8 +23,7 @@ h3, p{
     width: 90%;
     height: 75px;
     text-align: right;
-    margin-left: 5%;
-    position:sticky;
+    margin:0 auto;
     background-color: white;
     z-index: 2;
 }

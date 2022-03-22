@@ -1,36 +1,75 @@
 # LA LUCHA
-La Lucha, meaning "The Fight" in Spanish is a Mexican resturant on wheels that travels the city of Athens, along with the surrounding munincipalies and brings heart-warming food to those eager to seek it out. 
+La Lucha, meaning "The Fight" in Spanish is a fictional Mexican resturant on wheels that travels the city of Athens, along with the surrounding munincipalies, and brings heart-warming food to those eager to seek it out. It is targeted at an audience of all ages, who's only requirement is a love for food, and the will to seek it out.
+
+The intent of the  website is to aid our audience in locating the Food Truck throughout the various days of the week. Provide them with the current menu. And last but not least, provide a brief description on who & what the company is.
+
+The La Lucha site is live, the link to which can be found [HERE](https://cluelessbiker.github.io/project1-la-lucha/)
 
 ## Features
 
 ### Existing Features
+Navigation bar:
+- this is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Location' & 'Menu' pages
+(include screen shot)
+
+Landing Page:
+- This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
+(include screen shot)
+- The About section is listed right beneath the Hero Image, to provide more clarity on the company, and give a better feel to who & what it is.
+
+Locations Page:
+- A big, bold banner has been installed at the top of the page, clearly reminding the users of the page's intent. It also includes the words "Food Truck", to really instill the concept of the site to the user. As well as providing an easy to read graphic that quickly supplies the viewer with the operating hours of the company.
+(include screen shot)
+- Next on this page is a short blurb outlining that the locations are regularly updated, as well as the day & time they can expect the next release of locations to be provided.
+(include screen shot)
+- Finally, this weeks locations have been included in big, bold type, made accessible by including a link to Google Maps for each location. Additionally, the text colour changes when hovered over, to alert the user to the fact that there is a clickable link there.
+(include screen shot)
+
+Menu Page:
+- The banner has been repeated once more, this time changing the keyword to "Menu". This has been done for consistency of design between the pages, and to reiterate the key information to the end user in a quick & easily accessible manner.
+(include screen shot)
+- A summary of the page along with a photograph has been provided, informing the users of the fresh & localy sourced, & seasonal ingredients.
+(include screen shot)
+- Last but not least, the current menu has been provided for the current items on offer. This again has been done in big, bold type, and divided into three sections "sides", "mains" & "drinks", so that the user can quickly distinguish what is on offer.
+(include screen shot)
+
+Social Links:
+- Links to the companies social media pages can be found on the bottom of each page, & each one will take the user to the social media platform being references.
+(include screen shot)
+
+Footer comments:
+- A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the hero-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 ### Features Left to Implement
+- Contact & Sign Up Page
+- Gallery.
 
 ## Testing
+The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. I could not understand what had occured. After much deliberation & viewing the style rules one by one, making adjustments or removing them altogether, I fixed the issue by changing the display from "inline" to "inline-block".
 
-### Validator Testing
+Having placed my hero images, as well as the "times" image on the menu & locations banner, I was having an issue with the size of the images themselves. Either the images were zoomed in more than what they should be, or they were not showing at all, being too large for their containers. The issue with the hero image was resolved by addint the following style rule {background-size:100% 100%;}, this solution was brought to my attention in a thread found in Stackoverflow. The graphic in the menu/locations banner was then fixed by adding the images to the html documents as image elements, & then defining their size in the CSS rules. This same method was then used to add in additional images to each page.
 
-### Unfixed Bugs
-The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. Could not understand what had occured. Have temporarily left the issue & will address it again later.
-Fixed the issue by changing the display from "inline" to "inline-block".
-Resolved the issue of the background image size within their containers using the {background-size:100% 100%;} rule found in Stackoverflow.
-With the help of my cousin, I was shown how to use flexbox styles wish instantly resolved the issue I was experiencing with placement & my items inexplicably being off center. I was also informed that I had been incorrectly using the postion:absolute; rule, that this was in turn responsible for much of my frustrations.
+Next I struggled with centering the different elements on the page, and often found that the elements would align to the left of the page, despite having set the rule to {margin:0 auto}. I fought with this issue for longer than I should, forcing the placements of the images with numerous style rules. Knowing that my method of attack was incorrect, I enlisted the assistance of my cousin, who then informed me that the main source of my frustration was the {position:absolute;} rule, and directed me towards the 'flex' styling rules that immediately made things much easier & my code far less unrully.
+
 Ran the html files through W3C validator. Upon initial run through, some sections failed. Once I removed the paragraph elements from the the unordered list elements, the issue was resolved.
+
 The same happened with running the style rules through the CSS validator. Two rules hadn't been written correctly, but once amended, it passed without any errors.
 
+### Validator Testing
+- html files pass through the [W3C validator]() with no issues found.
+- html files pass through the [Jigsaw validator]() with no issues found.
+- page has an excellent Accessibility rating in Lighthouse
+(include screenshot)
+
+### Unfixed Bugs
+
+
 ## Deployment
-The repository was created on Github using the C.I. template. It was then pushed to Gitpod, where the initial layout was formed.
-Spent a very long time frustrated wondering why my changes were not taking effect, and then realised that I had not linked my style.css to my index.html.
-Next I worked on placing the hero image. I found that whilst I could easily set the dimensions of the container, I could not adjust the size of the photo within that container, & as a result, it was overly zoomed in. I removed the image from the style sheet, & added it to the html file instead. This assisted in fixing the size of the image, however it created a new problem in the styling, as the 'margin:0 auto;' was no longer centering the image. This was fixed by creating a 'margin-left:5%;'.
-For now, there are scaling issues which will need to be addressed with the media queries, or possibly better style rules.
-Decided the code was too complicated. I had guessed my way through acheiving the result I had wanted, & realised the method in which I got there was wrong. After reviewing what had occurred, I realised that I had not properly assigned my parent & child alterations to coincide with one another.
-I'm still struggling with sizing the images within their containers, along with positioning the overlay text. I can control the positioning with percentages, but I would like to get them vertically aligned without it.
-Leaving the issues with the home page for now, will need to seek guidance to resolve the matter.
-Moving on to the 'Menu' page.
-Was experiencing the same issues with the menu heading that I was on the main page. Enlisted the help of my cousin to aid me in seeing the error of my ways. Once that was finally in place & I understood how to get there, I moved on to completing the menu layout with the newly aqcuired knowledge. 
-Moved on to the "locations" page. Reused the banner heading from the menu page with a few minor adjustments to accomodate the larger word. And added the locations of where the food truck will be each day of the week. Each day is linked to a page on google maps to fascilitate people in finding the truck.
-Having completed most of the project (media queries still missing), I've realised that the site lacks content. I focused entirely on the design, and did not build up information to go with it. Will need to reconsider the layout, and possibly add in an "about" section. 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found [HERE - La Lucha](https://cluelessbiker.github.io/project1-la-lucha/menu.html)
 
 ## Credits
 
