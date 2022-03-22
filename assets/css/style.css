@@ -24,17 +24,11 @@ h3, p{
     height: 75px;
     text-align: right;
     margin-left: 5%;
-    position:fixed;
+    position:sticky;
     background-color: white;
     z-index: 2;
-    /*width:90%;
-    height:75px;
-    text-align:right;
-    margin:0 auto;
-    position:fixed;
-    background-color:white;
-    z-index:2;*/
 }
+
 #navigation >li{
     font-family:'Special Elite', sans-serif;
     color:#3a3a3a;
@@ -64,16 +58,6 @@ h3, p{
     background-size: 100%;
     padding-top:10%
 }
-/*{
-    width:90%;
-    height:600px;
-    margin:0 auto;
-    overflow:hidden;
-    position:relative;
-    background:url('../images/food-truck.jpeg') no-repeat center center;
-    background-size: 100%;
-    top:10%;
-}*/
 
 #lalucha-banner{
     width:50%;
@@ -102,32 +86,36 @@ h3, p{
     width:70%;
     height: 450px;px;
     margin:0 auto;
-    /*overflow:hidden;
-    padding:20px;
-    box-sizing:border-box;
-    border:1px solid #000000;*/
     display:flex;
-    align-items:center;
+    align-items:flex-start;
+    padding:20px;
 }
 #lalucha-team img{
     width:auto;
-    height:425px
+    height:450px
 }
 #about-us{
-    height:425px;
-    width:auto;
+    height:390px;
+    width:500px;
     padding:30px;
+    margin-right:20px;
+    border: 1px solid #3A3A3A;
     text-align:center;
-    font-size:125%;
-    line-height:28px;
+    font-size:105%;
+    line-height:22px;
+    color:#3a3a3a;
     overflow:auto;
 }
-
+#about-us hr{
+    border-top: 1px solid #3A3A3A;
+    width:100%;
+    margin:5px;
+}
 
 /* Menu banner */
 #banner-container{
     width:90%;
-    height:250px;
+    height:25vh;
     margin:0 auto;
     overflow:hidden;
     background:url('../images/chalkboard-backgrounds.jpg') no-repeat center center;
@@ -157,11 +145,42 @@ h3, p{
     transform-origin: 0 0;
 }
 #right-times img{
-    width:80%;
+    width:100%;
 }
 .solid-banner{
     margin:0 auto;
     padding:10px;
+}
+
+/* Food Philosophy */
+#food-about{
+    width:90%;
+    height: 450px;px;
+    margin:0 auto;
+    display:flex;
+    align-items:flex-start;
+    padding:20px;
+}
+#vegetables img{
+    width:auto;
+    height:450px
+}
+#food-philosophy{
+    height:390px;
+    width:500px;
+    padding:30px;
+    margin-right:20px;
+    border: 1px solid #3A3A3A;
+    text-align:center;
+    font-size:105%;
+    line-height:22px;
+    color:#3a3a3a;
+    overflow:auto;
+}
+#food-philosophy hr{
+    border-top: 1px solid #3A3A3A;
+    width:100%;
+    margin:5px;
 }
 
 /* Menu categories */
