@@ -60,6 +60,8 @@ This solution was brought to my attention in a thread found in Stackoverflow. Th
 
 <p>I tried to add a static navigation panel at the top that would always be visible no matter how far down the page a user scrolled. However what ended up occuring, was that whilst I was able to acheive this, the section element below (such as the Hero Image), would then shift up in its placement & move behind the navigation element. The navigation element would also shift to the left of the page, & would need creative adjustments to the margins to return back to its original position of being centered. I was unable to figure out how to resolve this, and returned the navigation bar to its original design. I may revisit this feature later on & try to correct it.</p>
 
+The media queries proved to be a challenge. It took a lot of trial & error in the Chrome Dev tool to adjust everything accordingly so that it would not display horribly out of sync when the page was to be resized. I found undoing my horizontal alignments where I had applied flex styles to be particularly challenging, however eventually phrased my my conundrum correctly in my google search, & was able to locate the resolution on Stackoverflow.
+
 ### Validator Testing
 - html files pass through the [W3C validator]() with no issues found.
 - html files pass through the [Jigsaw validator]() with no issues found.
@@ -74,7 +76,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE - La Lucha](https://cluelessbiker.github.io/project1-la-lucha/menu.html)
+- The live link can be found [HERE - La Lucha](https://cluelessbiker.github.io/project1-la-lucha/index.html)
 
 ## Credits
 
@@ -89,6 +91,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 <p>Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.</p>
 1. transform: scaleY(2);
 2. transform-origin: 0 0;
+Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove-display-flex-in-media-query) provided the answer on how to undo my flex styling rule.
 
 ### Media
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica

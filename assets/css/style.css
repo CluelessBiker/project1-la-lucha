@@ -295,3 +295,90 @@ footer{
 #social-links i:hover{
     color:#F6efee;
 }
+
+/* For medium screen sizes from 950px wide & down (smart phones etc) */
+@media screen and (max-width:950px){
+    /*#lalucha-banner{
+        width:50%;
+        height:110px;
+        font-size:4vw;
+        text-align:center;
+        color:#F6EFEE;
+        background:url('../images/banner.png') no-repeat center center;
+        background-size: 100%;
+        margin:0 auto;
+    }
+    #foodtruck-overlay{
+        font-size:3vw;
+        text-align:center;
+        line-height:110%;
+        width:20%;
+        background-color:#F6EFEE;
+        color:#3a3a3a;
+        margin:0 auto;
+        padding:5px;
+        border-radius:5%;
+    }
+    */
+}
+
+/* For small screen sizes from 800px wide & down (smaller smart phones etc) */
+@media screen and (max-width:800px){
+    #navigation{
+        width: 100%;
+        text-align: center;
+        height:55px;
+    }
+    #navigation >li{
+        font-size:100%;
+    }
+    /* Hero Image & logo layover */
+    #hero-container{
+        width: 100%;
+        height: 200px;
+        overflow:hidden;
+        padding:0;
+    }
+    #hero-image{
+        height:auto;
+    }
+    #lalucha-banner{
+        width:60%;
+        height:auto;
+        font-size:100%;
+        position: relative;
+        top: 20px;
+    }
+    #foodtruck-overlay{
+        font-size:90%;
+        width:25%;
+        text-align:center;
+        line-height:110%;
+        position: relative;
+        top: 20px;
+        padding:5px;
+    }
+    /* About us */
+    #about{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        padding:0;
+    }
+    #about-us{
+        height:auto;
+        width:auto;
+        padding:20px;
+        text-align:center;
+        font-size:105%;
+        line-height:22px;
+        border:none;
+    }  
+    /* Footer Elements */
+    #social-links i{
+        font-size: 120%;
+        padding:10px;
+    }
+}    
+
