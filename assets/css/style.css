@@ -375,6 +375,77 @@ footer{
         line-height:22px;
         border:none;
     }  
+    /* Menu & locations banner */
+    #banner-container{
+        width:100%;
+        height:100px;
+        margin:0 auto;
+        display:block;
+    }
+    #right-times img{
+	    position: absolute;
+        width:25%;
+	    right:5px;
+	    top:59px;
+    }    
+    #left-foodtruck{
+        position: absolute;
+        right:81px;
+	    top:99px;
+    }
+    #center-menu{
+        position: absolute;
+        right:75px;
+	    top:54px;
+	    letter-spacing:10px;
+    }
+    #center-locations{
+        position: absolute;
+        right:75px;
+	    top:34px;
+	    letter-spacing:3px;
+    }  
+    /* Menu page layout */
+    #food-about{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        padding:0;
+    }
+    #food-philosophy{
+        height:auto;
+        width:auto;
+        padding:20px;
+        text-align:center;
+        font-size:105%;
+        line-height:22px;
+        border:none;  
+    }
+    #vegetables img{
+        width:100%;
+        height:auto;
+    }
+    /* Menu panels for Sides, Drinks & Mains */
+    #menu-items{
+        width:100%;
+        height:400px;
+        display:block;
+        overflow:scroll;
+    }
+    .menu-sections{
+        width:100%;
+        height:auto;
+        padding:20px;
+        font-size:100%;
+        line-height:130%;
+        margin:0;
+    }
+    .menu-sections h3, p{
+        font-size:100%;
+        font-family:'Special Elite', sans-serif;
+    }
+
     /* Footer Elements */
     #social-links i{
         font-size: 120%;
@@ -382,3 +453,55 @@ footer{
     }
 }    
 
+/* 
+
+
+#center-menu{
+    text-align:center;
+    font-size:12vw;
+    padding:0;
+}
+#center-locations{
+    font-size: 5.7vw;
+    text-align:center;
+    padding-bottom: 13.5%;
+    transform: scaleY(2);
+    transform-origin: 0 0;
+}
+
+}
+.solid-banner{
+    margin:0 auto;
+    padding:10px;
+}
+Menu categories 
+
+.menu-sections{
+    width:33%;
+    height:380px;
+    border:1px solid #F6EFEE;
+    box-sizing:border-box;
+    color:#F6EFEE;
+    padding:30px;
+    margin:10px;
+    font-size:1.6em;
+    line-height: 1.5em;
+}
+.menu-sections h3{
+    text-transform:uppercase;
+    font-size:1.8em;
+}
+hr{
+    border-top: 1px solid #F6EFEE;
+    width:100%;
+    margin:5px;
+}
+#menu-sides{
+    text-align:right;
+}
+#menu-mains{
+    text-align:center;
+}
+#menu-drinks{
+    text-align:left;
+}*/

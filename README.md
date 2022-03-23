@@ -92,6 +92,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. transform: scaleY(2);
 2. transform-origin: 0 0;
 Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove-display-flex-in-media-query) provided the answer on how to undo my flex styling rule.
+Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & vent frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp.
 
 ### Media
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
