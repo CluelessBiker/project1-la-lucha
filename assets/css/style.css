@@ -374,7 +374,12 @@ footer{
         font-size:105%;
         line-height:22px;
         border:none;
-    }  
+        margin:0;
+    }
+    #lalucha-team img{
+        width:100%;
+        height:auto;
+    }
     /* Menu & locations banner */
     #banner-container{
         width:100%;
@@ -445,6 +450,43 @@ footer{
         font-size:100%;
         font-family:'Special Elite', sans-serif;
     }
+    /* locations page layout */
+    #location-announcements{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        padding:0;
+    }
+    #location-text{
+        height:auto;
+        width:auto;
+        padding:20px;
+        text-align:center;
+        font-size:105%;
+        line-height:22px;
+        border:none;  
+    }
+    #location-photo img{
+        width:100%;
+        height:auto;
+    }
+    /* Locations panels for places/dates */
+    #locations{
+        width:100%;
+        height:auto;
+        display:block;
+        padding:0;
+    }
+    .location-sections{
+        width:100%;
+        height:auto;
+        padding:20px;
+        font-size:100%;
+        line-height:130%;
+        margin:0;
+    }
+
 
     /* Footer Elements */
     #social-links i{
