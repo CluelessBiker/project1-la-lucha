@@ -12,37 +12,47 @@ The La Lucha site is live, the link to which can be found [HERE](https://clueles
 ### Existing Features
 #### Navigation bar:
 this is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Location' & 'Menu' pages.
+
 ![Navigation bar](/assets/images/navigation-bar.png)
 
 #### Landing Page:
 This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
+
 ![Hero image](/assets/images/home-heroimage.png)
 
 The About section is listed right beneath the Hero Image, to provide more clarity on the company, and give a better feel to who & what it is.
+
 ![About us](/assets/images/home-aboutus.png)
 
 #### Locations Page:
 A big, bold banner has been installed at the top of the page, clearly reminding the users of the page's intent. It also includes the words "Food Truck", to really instill the concept of the site to the user. As well as providing an easy to read graphic that quickly supplies the viewer with the operating hours of the company.
+
 ![Locations banner](/assets/images/locations-banner.png)
 
 Next on this page is a short blurb outlining that the locations are regularly updated, as well as the day & time they can expect the next release of locations to be provided.
+
 ![Description of locations page](/assets/images/locations-description.png)
 
 Finally, this weeks locations have been included in big, bold type, made accessible by including a link to Google Maps for each location. Additionally, the text colour changes when hovered over, to alert the user to the fact that there is a clickable link there.
+
 ![Find the truck](/assets/images/locations-truckstops.png)
 
 #### Menu Page:
 The banner has been repeated once more, this time changing the keyword to "Menu". This has been done for consistency of design between the pages, and to reiterate the key information to the end user in a quick & easily accessible manner.
+
 ![Menu banner](/assets/images/menu-banner.png)
 
 A summary of the page along with a photograph has been provided, informing the users of the fresh & locally sourced, & seasonal ingredients.
+
 ![Food philosophy](/assets/images/menu-description.png)
 
 Last but not least, the current menu has been provided for the current items on offer. This again has been done in big, bold type, and divided into three sections "sides", "mains" & "drinks", so that the user can quickly distinguish what is on offer.
+
 ![What's on the menu](/assets/images/menu-dishes.png)
 
 #### Social Links:
 Links to the companies social media pages can be found on the bottom of each page, & each one will take the user to the social media platform being references.
+
 ![Social Links](/assets/images/social-links.png)
 
 #### Footer comments:
@@ -81,6 +91,7 @@ As I moved through the different sizes of queries, managing the banner & wording
 - html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 - html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 - page has an excellent Accessibility rating in Lighthouse
+
 ![Accessibility score](/assets/images/accessibility-score.png)
 
 ### Unfixed Bugs
@@ -117,6 +128,7 @@ Support was provided by my fellow student [Mats](https://github.com/Pelikantapet
 
 ### Media
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
+
 The following images came from Pexel:
 - [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
 - [Photo by Brett Sayles - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
@@ -125,5 +137,6 @@ The following images came from Pexel:
 - [Photo by Andrea Piacquadio - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
 - [Photo by Rodnae Productions - foodtruck staff](https://www.pexels.com/photo/man-and-woman-standing-in-front-of-the-food-truck-5779665/)
 - [Photo by Roberto Nickson - palm trees](https://www.pexels.com/photo/green-and-brown-coconut-trees-under-clear-blue-sky-2486168/)
+
 Stocksnap supplied this one:
 - [Photo by Bruce Mars - vegetable stand](https://stocksnap.io/photo/vegetable-stall-KZ19NV9MVY)
