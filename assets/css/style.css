@@ -92,7 +92,7 @@ h3, p{
 /* About us */
 #about{
     width:70%;
-    height: 450px;px;
+    height: 450px;
     margin:0 auto;
     display:flex;
     align-items:flex-start;
@@ -163,7 +163,7 @@ h3, p{
 /* Food Philosophy */
 #food-about{
     width:90%;
-    height: 450px;px;
+    height: 450px;
     margin:0 auto;
     display:flex;
     align-items:flex-start;
