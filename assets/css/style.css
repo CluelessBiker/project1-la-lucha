@@ -238,7 +238,7 @@ hr{
     overflow:auto;
 }
 
-/* Locations */
+/* Locations - areas the truck will be */
 #locations{
     width:90%;
     position:relative;
@@ -263,7 +263,6 @@ hr{
     text-align:center;
     background: url('../images/chalkboard-backgrounds.jpg');
 }
-
 #locations a{
     text-decoration:none;
     color:inherit;
@@ -346,7 +345,19 @@ footer{
 
 /* For medium screen sizes from 950px wide & down (smart phones etc) */
 @media screen and (max-width:950px){
+/* Hero Image & logo layover */
+#hero-container{
+    width: 90%;
+    height: 420px;
     
+}    
+    #location-announcements{
+        width:80%;
+    }     
+    #location-text{
+        width:500px;
+        font-size:105%;
+    }    
 }
 
 /* For small screen sizes from 320px wide & down (smaller smart phones etc) */
