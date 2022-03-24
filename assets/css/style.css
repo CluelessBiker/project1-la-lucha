@@ -60,7 +60,7 @@ h3, p{
 
 #lalucha-banner{
     width:50%;
-    height:110px;
+    height:133px;
     font-size:4vw;
     text-align:center;
     color:#F6EFEE;
@@ -111,7 +111,7 @@ h3, p{
     margin:5px;
 }
 
-/* Menu banner */
+/* Menu & locations page banner */
 #banner-container{
     width:90%;
     height:30%;
@@ -343,14 +343,13 @@ footer{
     }        
 }
 
-/* For medium screen sizes from 950px wide & down (smart phones etc) */
+/* For medium screen sizes from 950px wide & down (smaller laptops & tablets) */
 @media screen and (max-width:950px){
-/* Hero Image & logo layover */
-#hero-container{
+    /* Hero Image & logo layover */
+    #hero-container{
     width: 90%;
     height: 420px;
-    
-}    
+    }    
     #location-announcements{
         width:80%;
     }     
@@ -360,20 +359,21 @@ footer{
     }    
 }
 
-/* For small screen sizes from 320px wide & down (smaller smart phones etc) */
-@media screen and (max-width:320px){
+/* For medium screen sizes from 800px wide & down (smart phones etc) */
+@media screen and (max-width:800px){
+    /* Site navigation links */
     #navigation{
         width: 100%;
         text-align: center;
         height:55px;
     }
     #navigation >li{
-        font-size:100%;
+        font-size:120%;
     }
     /* Hero Image & logo layover */
     #hero-container{
         width: 100%;
-        height: 200px;
+        height: 500px;
         overflow:hidden;
         padding:0;
     }
@@ -418,36 +418,13 @@ footer{
         width:100%;
         height:auto;
     }
-    /* Menu & locations banner */
+    /* Menu & locations page banner */
     #banner-container{
         width:100%;
-        height:100px;
-        margin:0 auto;
-        display:block;
     }
     #right-times img{
-	    position: absolute;
-        width:25%;
-	    right:5px;
-	    top:59px;
-    }    
-    #left-foodtruck{
-        position: absolute;
-        right:81px;
-	    top:99px;
+        width:110%;
     }
-    #center-menu{
-        position: absolute;
-        right:75px;
-	    top:54px;
-	    letter-spacing:10px;
-    }
-    #center-locations{
-        position: absolute;
-        right:75px;
-	    top:34px;
-	    letter-spacing:3px;
-    }  
 
     /* Menu panels for Sides, Drinks & Mains */
     #menu-items{
@@ -508,8 +485,43 @@ footer{
         font-size:100%;
         line-height:130%;
         margin:0;
-    }     
+    }      
 }    
 
-/* 
-*/
+/* For small screen sizes from 320px wide & down (smaller smart phones etc) */
+@media screen and (max-width:320px){
+    #navigation >li{
+        font-size:100%;
+    }
+    /* Menu & locations banner */
+    #banner-container{
+        width:100%;
+        height:100px;
+        margin:0 auto;
+        display:block;
+    }
+    #right-times img{
+	    position: absolute;
+        width:25%;
+	    right:5px;
+	    top:59px;
+    }    
+    #left-foodtruck{
+        position: absolute;
+        right:81px;
+	    top:99px;
+    }
+    #center-menu{
+        position: absolute;
+        right:75px;
+	    top:54px;
+	    letter-spacing:10px;
+    }
+    #center-locations{
+        position: absolute;
+        right:75px;
+	    top:34px;
+	    letter-spacing:3px;
+    } 
+}    
+
