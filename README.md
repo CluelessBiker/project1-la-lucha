@@ -3,7 +3,7 @@ La Lucha, meaning "The Fight" in Spanish is a fictional Mexican restaurant on wh
 
 The intent of the  website is to aid our audience in locating the Food Truck throughout the various days of the week. Provide them with the current menu. And last but not least, provide a brief description on who & what the company is.
 
-![Site view across devices](/assets/images/devices-layout.png)
+![Site view across devices](/assets/images-readme/devices-layout.png)
 
 The La Lucha site is live, the link to which can be found [HERE](https://cluelessbiker.github.io/project1-la-lucha/)
 
@@ -13,47 +13,47 @@ The La Lucha site is live, the link to which can be found [HERE](https://clueles
 #### Navigation bar:
 this is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Location' & 'Menu' pages.
 
-![Navigation bar](/assets/images/navigation-bar.png)
+![Navigation bar](/assets/images-readme/navigation-bar.png)
 
 #### Landing Page:
 This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
 
-![Hero image](/assets/images/home-heroimage.png)
+![Hero image](/assets/images-readme/home-heroimage.png)
 
 The About section is listed right beneath the Hero Image, to provide more clarity on the company, and give a better feel to who & what it is.
 
-![About us](/assets/images/home-aboutus.png)
+![About us](/assets/images-readme/home-aboutus.png)
 
 #### Locations Page:
 A big, bold banner has been installed at the top of the page, clearly reminding the users of the page's intent. It also includes the words "Food Truck", to really instill the concept of the site to the user. As well as providing an easy to read graphic that quickly supplies the viewer with the operating hours of the company.
 
-![Locations banner](/assets/images/locations-banner.png)
+![Locations banner](/assets/images-readme/locations-banner.png)
 
 Next on this page is a short blurb outlining that the locations are regularly updated, as well as the day & time they can expect the next release of locations to be provided.
 
-![Description of locations page](/assets/images/locations-description.png)
+![Description of locations page](/assets/images-readme/locations-description.png)
 
 Finally, this weeks locations have been included in big, bold type, made accessible by including a link to Google Maps for each location. Additionally, the text colour changes when hovered over, to alert the user to the fact that there is a clickable link there.
 
-![Find the truck](/assets/images/locations-truckstops.png)
+![Find the truck](/assets/images-readme/locations-truckstops.png)
 
 #### Menu Page:
 The banner has been repeated once more, this time changing the keyword to "Menu". This has been done for consistency of design between the pages, and to reiterate the key information to the end user in a quick & easily accessible manner.
 
-![Menu banner](/assets/images/menu-banner.png)
+![Menu banner](/assets/images-readme/menu-banner.png)
 
 A summary of the page along with a photograph has been provided, informing the users of the fresh & locally sourced, & seasonal ingredients.
 
-![Food philosophy](/assets/images/menu-description.png)
+![Food philosophy](/assets/images-readme/menu-description.png)
 
 Last but not least, the current menu has been provided for the current items on offer. This again has been done in big, bold type, and divided into three sections "sides", "mains" & "drinks", so that the user can quickly distinguish what is on offer.
 
-![What's on the menu](/assets/images/menu-dishes.png)
+![What's on the menu](/assets/images-readme/menu-dishes.png)
 
 #### Social Links:
 Links to the companies social media pages can be found on the bottom of each page, & each one will take the user to the social media platform being references.
 
-![Social Links](/assets/images/social-links.png)
+![Social Links](/assets/images-readme/social-links.png)
 
 #### Footer comments:
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the hero-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
@@ -92,7 +92,10 @@ As I moved through the different sizes of queries, managing the banner & wording
 - html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 - page has an excellent Accessibility rating in Lighthouse
 
-![Accessibility score](/assets/images/accessibility-score.png)
+![Accessibility score](/assets/images-readme/accessibility-score.png)
+
+- Tested the site opens in Brave, Chrome & Safari without issues.
+- All links open to external pages as intended.
 
 ### Unfixed Bugs
 
@@ -115,7 +118,6 @@ Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-sc
 ```
 background-size: 100% 100%;.
 ```
-
 My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically using the following three rules:
 ```
 1. display:flex; 
@@ -128,6 +130,8 @@ Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-sc
 2. transform-origin: 0 0;
 ```
 Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove-display-flex-in-media-query) provided the answer on how to undo my flex styling rule.
+
+Stackoverflow [Reply](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website) explained how to add an icon to the browser tab of the web page.
 
 Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp.
 

@@ -43,7 +43,7 @@ h3, p{
     color:inherit;
 }
 #navigation a:hover{
-    color:#F6efee;
+    color:#ff19a7;
 }
 .current-page{
     border-bottom:1px solid #3a3a3a;
@@ -56,6 +56,7 @@ h3, p{
     background: url(../images/food-truck.jpeg) no-repeat center center;
     background-size: 100%;
 }
+/*
 #lalucha-banner h1{
     width:50%;
     margin-left:25%;
@@ -66,13 +67,14 @@ h3, p{
     position:relative;
     top:80px;
 }
+*/
 #lalucha-banner img{
     width:60%;
     height:auto;
     margin-left:20%;
     z-index: 2;
     position:relative;
-    top:-47px;
+    top:72px;
 }
 #foodtruck-overlay{
     font-size:3vw;
@@ -86,7 +88,7 @@ h3, p{
     border-radius:5%;
     z-index: 1;
     position:relative;
-    top:-78px;
+    top:44px;
 }
 
 /* About us */
@@ -300,13 +302,13 @@ footer{
     text-decoration:none;
 }
 #social-links i:hover{
-    color:#F6efee;
+    color:##ff19a7;
 }
 
 /* For medium screen sizes from 1200px wide & down (smart phones etc) */
 @media screen and (max-width:1200px){
     /* Hero overlay */
-    #lalucha-banner h1{
+    /* #lalucha-banner h1{
         position:relative;
         top:45px;
     }   
@@ -317,7 +319,7 @@ footer{
     #foodtruck-overlay{
         position: relative;
         top: -79px;
-    }
+    } */
     /* Menu page layout */
     #food-about{
         width:90%;
@@ -367,14 +369,14 @@ footer{
         height: 420px;
     }
     /* Hero overlay */
-    #lalucha-banner h1{
+    /* #lalucha-banner h1{
         position:relative;
         top:31px;
     }   
     #foodtruck-overlay{
         position: relative;
         top: -73px;
-    }    
+    }     */
     #location-announcements{
         width:80%;
     }     
@@ -400,17 +402,17 @@ footer{
         width: 100%;
         height: 400px;
     }
-    #lalucha-banner h1{
+    /* #lalucha-banner h1{
         position:relative;
         top:49px;
     }   
     #lalucha-banner img{
         position:relative;
         top:-30px;
-    } 
+    }  */
     #foodtruck-overlay{
         position: relative;
-        top: -46px;
+        top: 53px;
     }     
  
     /* About us */
@@ -505,15 +507,15 @@ footer{
 }  
 
 /* For the Lalucha banner */
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
     #lalucha-banner h1{
         position:relative;
         top:37px;
     }   
-} 
+}  */
 
 /* For the Lalucha banner */
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     #lalucha-banner h1{
         position:relative;
         top:64px;
@@ -526,10 +528,10 @@ footer{
         position: relative;
         top: -9px;
     }  
-}  
+}   */
 
 /* For the Lalucha banner */
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
     #navigation >li{
         font-size:100%;
     }
@@ -549,10 +551,10 @@ footer{
         position: relative;
         top: -20px;
     }  
-}  
+}   */
 
 /* For the Lalucha banner */
-@media screen and (max-width:400px){
+/* @media screen and (max-width:400px){
     #hero-container{
         height: 220px;
     }
@@ -567,13 +569,15 @@ footer{
     #foodtruck-overlay{
         position: relative;
         top: -19px;
-    }  
+    }   */
 } 
 
 /* For small screen sizes from 320px wide & down (smaller smart phones etc) */
 @media screen and (max-width:320px){
-    #navigation >li{
+    #navigation > li{
         font-size:100%;
+        line-height:5px;
+        padding:5px;
     }
     /* Hero Image & logo layover */
     #hero-container{
@@ -582,13 +586,13 @@ footer{
         overflow:hidden;
         padding:0;
     }
-    #hero-image{
+    /* #hero-image{
         height:auto;
     }
     #lalucha-banner h1{
         position:relative;
         top:24px;
-    }   
+    }    */
     /* Menu & locations banner */
     #banner-container{
         width:100%;
