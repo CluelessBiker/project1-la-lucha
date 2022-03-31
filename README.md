@@ -87,6 +87,10 @@ The media queries proved to be a challenge. It took a lot of trial & error in th
 
 As I moved through the different sizes of queries, managing the banner & wording I had overlaid on the hero image became near impossible. After several hours of fiddling and beating my head against the wall, I decided to try it from a new approach. I moved the banner png into the index.html file, and removed it as a background image from the css style sheet. This ultimately gave me more control over the size & continuous position of it, and allowed me to move it around the page & overlay the text much more effortlessly. What I did end up having to do however, was create a media query for each 100px bracket, as the overlaying text would still move to far. 
 
+After a review of the project with my mentor, we decided it would be better to turn the initial "LA LUCHA" banner into a solitary image, instead of text overlaying a PNG, as this was still producing scaling issues where the text would move position across the banner when being sized.
+
+Issues with placement of the images next to the descriptions was also resolved once I changed the flex rules applied, and removed any unnecessary pagging from around the parent element.
+
 ### Validator Testing
 - html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 - html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.

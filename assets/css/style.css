@@ -147,12 +147,19 @@ h3, p{
     font-size:12vw;
     padding:0;
 }
-#center-locations{
-    font-size: 5.7vw;
+#center-locations, #center-contact{
     text-align:center;
-    padding-bottom: 13.5%;
+    /* padding-bottom: 13.5%; */
+    
+    /* transform-origin: 0 0; */
+}
+#center-locations{
+    font-size: 6vw;
     transform: scaleY(2);
-    transform-origin: 0 0;
+}
+#center-contact{
+    font-size: 7.7vw;
+    transform: scaleY(1.4);
 }
 #right-times img{
     width:100%;
@@ -407,13 +414,13 @@ footer{
         position: relative;
         top: -73px;
     }     */
-    #location-announcements{
+    /* #location-announcements{
         width:80%;
     }     
     #location-text{
         width:500px;
         font-size:105%;
-    }    
+    }     */
 }
 
 /* For medium screen sizes from 800px wide & down (smart phones etc) */
@@ -660,23 +667,23 @@ footer{
 	    position: absolute;
         width:25%;
 	    right:5px;
-	    top:59px;
+	    top:78px;
     }    
     #left-foodtruck{
         position: absolute;
         right:81px;
-	    top:99px;
+	    top:119px;
     }
     #center-menu{
         position: absolute;
         right:75px;
-	    top:54px;
+	    top:72px;
 	    letter-spacing:10px;
     }
     #center-locations{
         position: absolute;
         right:75px;
-	    top:34px;
+	    top:78px;
 	    letter-spacing:3px;
     } 
 }    
