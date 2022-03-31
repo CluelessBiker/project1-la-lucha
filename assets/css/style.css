@@ -100,7 +100,7 @@ h3, p{
     justify-content:space-between;
     /* padding:20px; */
 }
-.page-description img{
+.description-image img{
     width:auto;
     height:450px
 }
@@ -323,12 +323,12 @@ footer{
         top: -79px;
     } */
     /* Menu page layout */
-    #about{
+    /* #about{
         padding:0;
         display:block;
         height:auto;
     }
-    #locations{
+    #location-announcements{
         display:block;
         height:auto;
     }
@@ -338,8 +338,17 @@ footer{
         margin:0 auto;
         display:block;
         padding:0;
+    } */
+    /* descriptions & supporting images section for home, locations & menu */
+    #about, #location-announcements, #food-about{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        padding:0;
     }
-    #food-philosophy{    
+    
+    #about-us, #location-text, #food-philosophy{    
         height:auto;
         width:auto;
         padding:20px;
@@ -348,15 +357,18 @@ footer{
         line-height:22px;
         border:none;  
     }
-    #vegetables{
+
+    /* #vegetables{
         width:100%;
-    }
-    #vegetables img{
+    } */
+
+    #vegetables img, #lalucha-team img, #location-photo img, #location-photo-chairs img{
         width:100%;
         height:auto;
         margin:0 auto;
     }
-    /* Locations panels for places/dates */
+
+    /* Locations panels for places & dates */
     #locations{
         width:90%;
         height:auto;
