@@ -336,6 +336,25 @@ hr{
     color:#3A3A3A;
 }
 
+/* Form dump page styling */
+#formdump-page{
+    width:90%;
+    height:600px;
+}
+#formdump-message{
+    font-size:3vw;
+    text-align:center;
+    line-height:160%;
+    width:50%;
+    background-color:#F6EFEE;
+    color:#3a3a3a;
+    margin:0 auto;
+    padding:5px;
+    border-radius:5%;
+    z-index: 1;
+    position:relative;
+    top:44px;
+}
 
 /* Footer styling */
 footer{

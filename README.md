@@ -116,6 +116,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### Content
 As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, along with the display of the social links in the footer element.
 
+The styling of the form element in 'Love Running' was used as a starting point for my form to help remember all categories that needed to be addressed.
+
 Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes, where I was reminded of how to size fonts with viewport widths & heights.
 
 Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers, where I found the styling rule 
@@ -141,7 +143,7 @@ Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove
 
 Stackoverflow [Reply](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website) explained how to add an icon to the browser tab of the web page.
 
-Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp.
+Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp. They also informed me that when creating a contact form, one most also create a form-dump page.
 
 ### Media
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
