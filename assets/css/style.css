@@ -340,6 +340,7 @@ hr{
 #formdump-page{
     width:90%;
     height:600px;
+    margin:0 auto;
 }
 #formdump-message{
     font-size:3vw;
@@ -471,6 +472,27 @@ footer{
         width: 90%;
         height: 420px;
     }
+    /* contact page */
+    #contact-about{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        padding:0;
+    }
+    
+    #contact-form{    
+        height:auto;
+        width:90%; 
+        margin:0 auto;
+    }
+    #taco-truck img{
+        width:100%;
+        margin:0 auto;
+        height:400px;
+        object-fit:cover;
+        object-position: 100% 60%;
+    }
     /* Hero overlay */
     /* #lalucha-banner h1{
         position:relative;
@@ -583,10 +605,10 @@ footer{
         line-height:22px;
         border:none;  
     }
-    #location-photo img{
+    /* #location-photo img{
         width:100%;
         height:auto;
-    }
+    } */
     /* Footer Elements */
     #social-links i{
         font-size: 120%;
@@ -633,16 +655,31 @@ footer{
     }
     #hero-container{
         width: 100%;
-        height: 300px;
+        height: 230px;
         overflow:hidden;
         padding:0;
     }
+
     #lalucha-banner img{
         top:26px;
     } 
     #foodtruck-overlay{
         top: 15px;
     } 
+    #formdump-message{
+        font-size:100%;
+        /* text-align:center; */
+        line-height:160%;
+        width:70%;
+        /* background-color:#F6EFEE;
+        color:#3a3a3a;
+        margin:0 auto;
+        padding:5px;
+        border-radius:5%;
+        z-index: 1;
+        position:relative;
+        top:44px; */
+    }
 }   
 
 /* For the Lalucha banner */
