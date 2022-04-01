@@ -50,6 +50,15 @@ Last but not least, the current menu has been provided for the current items on 
 
 ![What's on the menu](/assets/images-readme/menu-dishes.png)
 
+#### Contact Page:
+Once again I have kept the design simplistic, repeating the big bold banner as seen on the Locations & Contact pages. There is not a lot of content on the page, rather just a form so that custoers can reach out to the Food Truck team.
+
+![Contact form & accompanying image](/assets/images-readme/contact-page.png)
+
+A 'form dump' page has also been included upon the instruction of a fellow student who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
+
+![Contact form, form dump page](/assets/images-readme/contact-formdump.png)
+
 #### Social Links:
 Links to the companies social media pages can be found on the bottom of each page, & each one will take the user to the social media platform being references.
 
