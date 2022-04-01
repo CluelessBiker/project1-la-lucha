@@ -91,8 +91,8 @@ h3, p{
     top:44px;
 }
 
-/* About us */
-#about{
+/* Section styling for home, locations, menu & contact page */
+#about, #location-announcements, #food-about, #contact-about{
     width:90%;
     height: 450px;
     margin:0 auto;
@@ -104,6 +104,8 @@ h3, p{
     width:auto;
     height:450px
 }
+
+/* About us */
 #about-us{
     height:430px;
     width:40%;
@@ -170,15 +172,15 @@ h3, p{
 }
 
 /* Food Philosophy */
-#food-about{
+/* #food-about{
     width:90%;
     height: 450px;
     margin:0 auto;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-between; */
     /* align-items:flex-start; */
     /* padding:20px; */
-}
+/* } */
 #food-philosophy{
     height:390px;
     width:500px;
@@ -236,15 +238,15 @@ hr{
 }
 
 /* Location updates (location banner adjustment in original banner grouping) */
-#location-announcements{
+/* #location-announcements{
     width:90%;
     height: 450px;
     margin:0 auto;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-between; */
     /* align-items:flex-start; */
     /* padding:20px; */
-}
+/* } */
 #location-text{
     height:390px;
     width:300px;
@@ -289,6 +291,51 @@ hr{
 #locations a:hover{
     color:#14dada;
 }
+
+/* Contage page form section & accompanying image */
+#contact-form{
+    width:40%;
+    height:450px;
+    border:3px solid #3a3a3a;
+    box-sizing:border-box;
+    color:#3A3A3A;
+    background-color: #F6EFEE;
+    padding:30px;
+    font-size:1.2em;
+    text-align:center;
+    font-family:'Special Elite', sans-serif;
+}
+#contact-form h2{
+    padding:10px;
+}
+
+/* Form styling */
+#input-field{
+    width:100%;
+    height:30px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #3A3A3A;
+    border-radius:5px;
+}
+#input-field:hover{
+    border-color:#ff19a7;
+}
+#submit-button{
+    /* margin-top:20px; */
+    font-size:100%;
+    font-family:'Special Elite', sans-serif;
+    border-radius:5px;
+    padding:10px;
+    text-align:center;
+    background-color:#3A3A3A;
+    color:#F6EFEE;
+    /* display:block; */
+}
+#submit-button:hover{
+    background-color:#ff19a7;
+    color:#3A3A3A;
+}
+
 
 /* Footer styling */
 footer{

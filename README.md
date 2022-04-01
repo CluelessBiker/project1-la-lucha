@@ -122,6 +122,10 @@ Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-sc
 ```
 background-size: 100% 100%;.
 ```
+
+Another useful site that also helped with my image sizing issues & explained it in more detail was [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit).
+
+
 My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically using the following three rules:
 ```
 1. display:flex; 
