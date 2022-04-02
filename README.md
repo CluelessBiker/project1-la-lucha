@@ -7,6 +7,67 @@ The intent of the  website is to aid our audience in locating the Food Truck thr
 
 The La Lucha site is live, the link to which can be found [HERE](https://cluelessbiker.github.io/project1-la-lucha/)
 
+## Tabel of Contents
++ [UX](#ux "UX")
+  + [Site Purpose](#site-purpose "Site Purpose")
+  + [Site Goal](#site-goal "Site Goal")
+  + [Audience](#audience "Audience")
+  + [Communication](#communication "Communication")
+  + [Current User Goals](#current-user-goals "Current User Goals")
+  + [New User Goals](#new-user-goals "New User Goals")
++ [Design](#design "Design")
+  + [Colour Scheme](#colour-scheme "Colour Scheme")
+  + [Typography](#typography "Typography")
+  + [Imagery](#imagery "Imagery")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Technologies Used](#technologies-used "Technologies Used")
+  + [Main Languages Used](#main-languages-used "Main Languages Used")
+  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
++ [Deployment](#deployment "Deployment")
++ [Credits](#credits "Credits")
+  + [Content](#content "Content")
+  + [Media](#media "Media")
+
+## UX
+
+### Site Purpose:
+To bring information about the Food Truck, its location, and its current menu to the people visiting the page.
+
+### Site Goal:
+To regularly update our current users with the latest information, and provide them with new locations, and upcoming menu changes for the Truck. To Keep users coming back to regularly check on this information.
+
+### Audience:
+Everyone with a love for food, willing to travel to interesting locations to seek out new & interesting flavours. Our target market are men & women ages 18-50.
+
+### Communication:
+With a clear & bold design, this information is readily available to all who visit the site. Each page is boldly marked so that the user knows instantly where they are. The information is readily available, without having to go through an exhaustive search. And the operating hours are available throughout all the pages, to remind our audience immediately of when we are open.
+
+### Current User Goals:
+- To see regular updates of locations and the menu
+
+### New User Goals:
+- to navigate the site with ease & clearly understand the information that is being provided.
+- for the information to be relevant & up-to-date.
+- to be inspired by a striking design that captures my immediate interest,
+and keeps my focus on the site.
+
+## Design
+
+### Colour Scheme:
+The colour palette was created with the thought to provide as much contrast as possible, without feeling overwhelming. Most of the colour is primarily provided by the supporting images displayed across the site. However text & backgrounds were generated in a charcoal grey, and a very subtle, almost white shade of pink. The combination of the two, whilst striking, does not overwhelm the user. Two additional colours were used in a very vibrant pink & blue, and reserved only for the hover features over navigation and social links, to bring the users immediate attention to the fact that there is something there to be clicked.
+![Colour Palette](/assets/images-readme/colour-palette.png)
+
+### Typography:
+Cabin Sketch was selected for the main heading on each of the pages, accompanied by Special Elite. Both of these fonts bring to mind writing on a chalkboard, which is a common theme for displaying ever evolving menus and specials. A third font, Raleway was also added to enforce concepts throughout, and was used to display the words “Food Truck”, so remind the user that this is a restaurant on wheels.
+
+### Imagery:
+All the imagery on the site, excluding the Hero image was sources from free stock photo platforms. The Hero image has been credited in the Credits section of this document and was sourced from a google search to find the perfect introductory image that immediately imparts to the user what the purpose of the site is. Each additional photo added has aimed at supporting the theme of the site, and reiterates to the user that this is about food and social gathering.
+Two supplementary PNGs were all used to help the overall design aspect of the site. These were created by me in Adobe Illustrator.
+
 ## Features
 
 ### Existing Features
@@ -112,6 +173,19 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ### Unfixed Bugs
 
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+- Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
+- Font Awesome - to add icons to the social links in the footer element.
+- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Favicon - to provide the code & image for the icon in the tab bar.
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
