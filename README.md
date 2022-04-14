@@ -128,9 +128,12 @@ Links to the companies social media pages can be found on the bottom of each pag
 #### Footer comments:
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the hero-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
-### Features Left to Implement
-- Contact & Sign Up Page
+### Future Features:
 - Gallery.
+- A reservation page.
+- Recipes page.
+- Live chatbot.
+- Live GPS location of the truck.
 
 ## Testing
 The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. I could not understand what had occured. After much deliberation & viewing the style rules one by one, making adjustments or removing them altogether, I fixed the issue by changing the display from "inline" to "inline-block".
