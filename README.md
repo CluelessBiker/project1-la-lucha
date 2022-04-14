@@ -163,9 +163,12 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ### Validator Testing
 - html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-- html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-- page has an excellent Accessibility rating in Lighthouse
+![W3C validator message](/assets/images-readme/validator-html.png)
 
+- html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+![Jigsaw validator message](/assets/images-readme/validator-css.png)
+
+- page has an excellent Accessibility rating in Lighthouse
 ![Accessibility score](/assets/images-readme/accessibility-score.png)
 
 - Tested the site opens in Brave, Chrome & Safari without issues.
