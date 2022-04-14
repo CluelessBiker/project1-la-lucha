@@ -281,6 +281,7 @@ hr{
 }
 #contact-message{
     height:90px;
+    resize: none;
 }
 .input-field:hover{
     border-color:#ff19a7;
